@@ -1,0 +1,77 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+}
+div {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+
+h1#Count {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+#Increment {
+    background-color: #4CAF50; /* Green */
+}
+
+#Decrement {
+    background-color: #f44336; /* Red */
+}
+
+#Reset {
+    background-color: #ff9800; /* Orange */
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333333;
+    color: white;
+    font-size: 0.9em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    margin: 0;
+}
